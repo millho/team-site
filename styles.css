@@ -1,0 +1,60 @@
+.nav-bar {
+    height: 90vh;
+    color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    /* overflow-y: hidden; */
+}
+
+.sub-head {
+    color: red;
+}
+
+/* .nav-col {
+    left: auto to
+} */
+
+.content-col {
+    overflow-y: scroll;
+    max-height: 90vh;
+}
+
+.break-bar {
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.image-format1 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Fkitchenconcrete.jpg);
+    height: 40vh;
+    width: 50%;
+}
+
+.image-format2 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.w3schools.com%2Fw3images%2Flivingroom.jpg);
+    height: 30vh;
+    width: 50%;
+}
+
+.BvP {
+    height: 10vh;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    height: 10vh;
+}
