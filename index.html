@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>team-site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    body.debug .container,
+    body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+    }
+
+    body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+    }
+</style>
+
+<body>
+    <main class="container-fluid">
+        <section class="row">
+
+            <!-- SECTION NAV BAR -->
+            <div class="col-2 bg-danger nav-col nav-bar">
+                <div class="row">
+                    <h3 class="col-12 py-5">Company Name</h3>
+                    <h4 class="col-12 p-2 pt-3">Home</h4>
+                    <h4 class="col-12 p-2">Showcase</h4>
+                    <h4 class="col-12 p-2">Services</h4>
+                    <h4 class="col-12 p-2">Designers</h4>
+                    <h4 class="col-12 p-2">Packages</h4>
+                    <h4 class="col-12 p-2">Contact</h4>
+                </div>
+            </div>
+
+            <!-- SECTION TOP -->
+            <div class="col-10 content-col">
+                <section class="row ">
+                    <div class="col-12">
+                        <h1>Interior Design</h1>
+                    </div>
+                    <div class="col-12">
+                        <h2 class="sub-head">Showcase.</h2>
+                    </div>
+                    <div class="col-1 break-bar"></div>
+
+                </section>
+
+                <!-- SECTION IMAGES -->
+                <div class="p-5 justify-content-around">
+                    <section class="row">
+                        <div class="col-5 image-format1"></div>
+                        <div class="col-5 image-format1"></div>
+                    </section>
+
+                    <section class="row">
+                        <div class="col-6 image-format2"></div>
+                        <div class="col-6 image-format2"></div>
+                    </section>
+
+                    <section class="row">
+                        <div class="col-6 image-format2"></div>
+                        <div class="col-6 image-format2"></div>
+                    </section>
+                </div>
+                <div class="col-12">
+                    <h2 class="sub-head">Services.</h2>
+                </div>
+                <div class="col-1 break-bar"></div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati architecto aperiam aut.
+                        Labore rem a tenetur optio totam modi sit animi possimus, dolore dolores ipsam iusto, neque,
+                        vero iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe amet aperiam non,
+                        eveniet odit quos delectus deserunt beatae commodi fugit quaerat, accusamus cum quo quisquam
+                        totam iure optio animi sit.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <h2 class="sub-head">Designers.</h2>
+                </div>
+                <div class="col-1 break-bar"></div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor, consequatur iste sunt
+                    expedita fugiat magni impedit quia dolorem. Eligendi animi praesentium modi architecto est eius.
+                    Minus amet quisquam repellat.</div>
+                <div class="col-12">
+                    <p>Our Designers are Thoughtfully Chosen:</p>
+                </div>
+                <section class="row" id="designers">
+                    <div class="col">WORDS</div>
+                    <div class="col">WORDS</div>
+                    <div class="col">WORDS</div>
+                </section>
+                <div class="col-12">
+                    <h2 class="sub-head">Packages.</h2>
+                </div>
+                <div class="col-1 break-bar"></div>
+                <div class="col-12">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam necessitatibus quae
+                        maxime temporibus aliquid vero, quos culpa quidem veritatis eos, nobis ratione accusantium
+                        fugiat error facilis pariatur rerum. Voluptatem!
+                        Soluta fugiat doloribus amet ratione quod ut, quibusdam ducimus, laboriosam placeat perspiciatis
+                        quos sit natus harum libero mollitia? Eum possimus non vel rem corporis earum itaque. Tempora
+                        ipsam sit odit?
+                        Eligendi neque libero quibusdam dolorem voluptatum fugiat, nemo rerum culpa officiis labore
+                        possimus impedit. Ratione, pariatur, nostrum magnam ipsam sequi quibusdam, necessitatibus
+                        officia error praesentium consequuntur explicabo modi suscipit voluptates.
+                    </p>
+                </div>
+                <section class="row justify-content-center ">
+                    <div class="col-6 p-2 px-5 BvP bg-dark">
+                        <div class="text-center bg-danger">Basic</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-center">Pro</div>
+                    </div>
+                </section>
+                <div class="col-12">
+                    <h2 class="sub-head">Packages.</h2>
+                </div>
+                <div class="col-1 break-bar"></div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum molestias dolor
+                        cumque voluptatum recusandae consectetur nobis iure, dolorum veritatis quis amet explicabo illo.
+                        Facere esse commodi unde reprehenderit nostrum.</p>
+                </div>
+                <div class="col-12">Name</div>
+                <div class="col-12">
+                    <input class="form-control" type="text">
+                </div>
+                <div class="col-12">Email</div>
+                <div class="col-12">
+                    <input class="form-control" type="text">
+                </div>
+                <div class="col-12">Message</div>
+                <div class="col-12">
+                    <input class="form-control" type="text">
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12 text-white">
+                <div class="justify-content-end">
+                    <p>Powered by bofa deez</p>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
