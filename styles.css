@@ -1,26 +1,37 @@
-.nav-bar {
-    height: 90vh;
-    color: white;
-}
+/* util */
 
 body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    /* overflow-y: hidden; */
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    height: 10vh;
+}
+
+/* customs */
+
+.nav-bar {
+    height: 90vh;
+    color: white;
 }
 
 .sub-head {
     color: red;
 }
 
-/* .nav-col {
-    left: auto to
-} */
-
 .content-col {
     overflow-y: scroll;
     max-height: 90vh;
+}
+
+.spacer {
+    margin-bottom: 20px;
 }
 
 .break-bar {
@@ -47,14 +58,21 @@ body {
     width: 50%;
 }
 
-.BvP {
+.package-cards {
     height: 10vh;
 }
 
-p {
-    margin: 0;
+.designer-cards {
+    height: 10vh;
 }
 
-footer {
-    height: 10vh;
+.contact-button {
+    border-radius: 5px;
+    height: 5vh;
+    background-color: red;
+    color: white;
+}
+
+.form {
+    margin-bottom: 30px;
 }

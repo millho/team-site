@@ -33,10 +33,10 @@
 
 <body>
     <main class="container-fluid">
-        <section class="row">
+        <section class="row p-5">
 
             <!-- SECTION NAV BAR -->
-            <div class="col-2 bg-danger nav-col nav-bar">
+            <div class="col-2 bg-danger nav-bar">
                 <div class="row">
                     <h3 class="col-12 py-5">Company Name</h3>
                     <h4 class="col-12 p-2 pt-3">Home</h4>
@@ -48,41 +48,45 @@
                 </div>
             </div>
 
-            <!-- SECTION TOP -->
-            <div class="col-10 content-col">
-                <section class="row ">
+            <!-- SECTION TOP,CONTENT-COL -->
+            <div class="col-10 p-3 content-col">
+                <section class="row p-5">
                     <div class="col-12">
                         <h1>Interior Design</h1>
                     </div>
+                </section>
+
+                <!-- SECTION SHOWCASE, IMAGES -->
+                <section class="row p-3">
                     <div class="col-12">
                         <h2 class="sub-head">Showcase.</h2>
                     </div>
                     <div class="col-1 break-bar"></div>
-
                 </section>
 
-                <!-- SECTION IMAGES -->
-                <div class="p-5 justify-content-around">
-                    <section class="row">
+                <div class="p-3 justify-content-around">
+                    <section class="row p-5">
                         <div class="col-5 image-format1"></div>
                         <div class="col-5 image-format1"></div>
                     </section>
 
-                    <section class="row">
+                    <section class="row p-5">
                         <div class="col-6 image-format2"></div>
                         <div class="col-6 image-format2"></div>
                     </section>
 
-                    <section class="row">
+                    <section class="row p-5">
                         <div class="col-6 image-format2"></div>
                         <div class="col-6 image-format2"></div>
                     </section>
                 </div>
-                <div class="col-12">
+
+                <!-- SECTION SERVICES -->
+                <div class="col-12 pt-5">
                     <h2 class="sub-head">Services.</h2>
                 </div>
                 <div class="col-1 break-bar"></div>
-                <div class="col-12">
+                <div class="col-12 p-5 spacer">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati architecto aperiam aut.
                         Labore rem a tenetur optio totam modi sit animi possimus, dolore dolores ipsam iusto, neque,
                         vero iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe amet aperiam non,
@@ -90,26 +94,39 @@
                         totam iure optio animi sit.
                     </p>
                 </div>
+
+                <!-- SECTION DESIGNERS -->
                 <div class="col-12">
                     <h2 class="sub-head">Designers.</h2>
                 </div>
                 <div class="col-1 break-bar"></div>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor, consequatur iste sunt
+                <div class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor, consequatur iste
+                    sunt
                     expedita fugiat magni impedit quia dolorem. Eligendi animi praesentium modi architecto est eius.
                     Minus amet quisquam repellat.</div>
-                <div class="col-12">
-                    <p>Our Designers are Thoughtfully Chosen:</p>
+
+                <!-- SECTION DESIGNER CARDS -->
+                <div class="col-12 p-3">
+                    <p>Designers are Thoughtfully Chosen:</p>
                 </div>
-                <section class="row" id="designers">
-                    <div class="col">WORDS</div>
-                    <div class="col">WORDS</div>
-                    <div class="col">WORDS</div>
+                <section class="row p-3 spacer">
+                    <div class="col-4 p-3 px-5 designer-cards">
+                        <div class="text-center bg-light">designer cards</div>
+                    </div>
+                    <div class="col-4 p-3 px-5 designer-cards">
+                        <div class="text-center bg-light">designer cards</div>
+                    </div>
+                    <div class="col-4 p-3 px-5 designer-cards">
+                        <div class="text-center bg-light">designer cards</div>
+                    </div>
                 </section>
+
+                <!-- SECTION PACKAGES -->
                 <div class="col-12">
                     <h2 class="sub-head">Packages.</h2>
                 </div>
                 <div class="col-1 break-bar"></div>
-                <div class="col-12">
+                <div class="col-12 p-5">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quibusdam necessitatibus quae
                         maxime temporibus aliquid vero, quos culpa quidem veritatis eos, nobis ratione accusantium
                         fugiat error facilis pariatur rerum. Voluptatem!
@@ -121,45 +138,52 @@
                         officia error praesentium consequuntur explicabo modi suscipit voluptates.
                     </p>
                 </div>
-                <section class="row justify-content-center ">
-                    <div class="col-6 p-2 px-5 BvP bg-dark">
+
+                <!-- SECTION PACKAGE CARDS -->
+                <section class="row p-5 spacer justify-content-center ">
+                    <div class="col-6 p-3 px-5 package-card bg-light">
                         <div class="text-center bg-danger">Basic</div>
                     </div>
-                    <div class="col-6">
-                        <div class="text-center">Pro</div>
+                    <div class="col-6 p-3 px-5 package-card">
+                        <div class="text-center bg-light">Pro</div>
                     </div>
                 </section>
+
+                <!-- SECTION CONTACT -->
                 <div class="col-12">
-                    <h2 class="sub-head">Packages.</h2>
+                    <h2 class="sub-head">Contact.</h2>
                 </div>
                 <div class="col-1 break-bar"></div>
-                <div>
+                <div class="p-5">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum molestias dolor
                         cumque voluptatum recusandae consectetur nobis iure, dolorum veritatis quis amet explicabo illo.
                         Facere esse commodi unde reprehenderit nostrum.</p>
                 </div>
-                <div class="col-12">Name</div>
-                <div class="col-12">
+
+                <!-- SECTION CONTACT FORM -->
+                <div class="col-12 form">Name</div>
+                <div class="col-12 form">
                     <input class="form-control" type="text">
                 </div>
-                <div class="col-12">Email</div>
-                <div class="col-12">
+                <div class="col-12 form">Email</div>
+                <div class="col-12 form">
                     <input class="form-control" type="text">
                 </div>
-                <div class="col-12">Message</div>
-                <div class="col-12">
+                <div class="col-12 form">Message</div>
+                <div class="col-12 form">
                     <input class="form-control" type="text">
                 </div>
+                <button class="contact-button">CONTACT US</button>
 
             </div>
         </section>
     </main>
 
-    <footer class="container-fluid bg-dark">
-        <div class="row">
-            <div class="col-12 text-white">
-                <div class="justify-content-end">
-                    <p>Powered by bofa deez</p>
+    <footer class="container-fluid p-4 justify-content-center bg-dark">
+        <div class="row justify-content-end">
+            <div class="col-2 text-white">
+                <div>
+                    <p>Powered by J&W</p>
                 </div>
             </div>
     </footer>
