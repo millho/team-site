@@ -21,6 +21,10 @@ footer {
     color: white;
 }
 
+.mobile-nav {
+    height: 10vh;
+}
+
 .sub-head {
     color: red;
 }
